@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/submodule-1">子模块 1</router-link> |
-      <router-link to="/submodule-2">子模块 2</router-link>
+      <router-link to="/alarm">报警模块</router-link> |
+      <router-link to="/trouble">隐患模块</router-link> |
+      <router-link to="/accident">事故模块</router-link> |
+      <router-link to="/promise">承诺模块</router-link>
     </nav>
     <router-view />
   </div>
