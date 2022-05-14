@@ -1,5 +1,11 @@
 # git-submodules
 
+## Clone project
+
+```
+git clone git@github.com:fecym/git-submodules.git --recursive
+```
+
 ## Project setup
 ```
 yarn install
