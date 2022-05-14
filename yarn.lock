@@ -1169,7 +1169,7 @@
 
 "@types/eslint@^7.28.2":
   version "7.29.0"
-  resolved "https://registry.npmmirror.com/@types/eslint/-/eslint-7.29.0.tgz#e56ddc8e542815272720bb0b4ccc2aff9c3e1c78"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.29.0.tgz#e56ddc8e542815272720bb0b4ccc2aff9c3e1c78"
   integrity sha512-VNcvioYDH8/FxaeTKkM4/TiTwt6pBV9E3OfGmvaw8tPl0rrHCJ4Ll15HRT+pMiFAf/MLQvAzC+6RzUMEL9Ceng==
   dependencies:
     "@types/estree" "*"
@@ -1439,7 +1439,7 @@
 
 "@vue/cli-plugin-eslint@~5.0.0":
   version "5.0.4"
-  resolved "https://registry.npmmirror.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-5.0.4.tgz#33ee3e971d8ee1664d55ffd15b2af548af66fef8"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-5.0.4.tgz#33ee3e971d8ee1664d55ffd15b2af548af66fef8"
   integrity sha512-NLBEKFTFJhYHMzQ3z+sb6xlkcNaN/RcbZ3hiCY72aJe4YOO8jEAp0XkPzlHd4xYkMW7jrmOwwLOPw+3BJ4b77Q==
   dependencies:
     "@vue/cli-shared-utils" "^5.0.4"
@@ -1987,7 +1987,7 @@ bl@^4.1.0:
 
 bluebird@^3.1.1:
   version "3.7.2"
-  resolved "https://registry.npmmirror.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
 body-parser@1.20.0:
@@ -2185,7 +2185,7 @@ charcodes@^0.2.0:
 
 chokidar@^3.5.3:
   version "3.5.3"
-  resolved "https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
   dependencies:
     anymatch "~3.1.2"
@@ -2624,7 +2624,7 @@ de-indent@^1.0.2:
 
 debug@2.6.9:
   version "2.6.9"
-  resolved "https://registry.npmmirror.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
   dependencies:
     ms "2.0.0"
@@ -2977,7 +2977,7 @@ eslint-visitor-keys@^3.1.0, eslint-visitor-keys@^3.3.0:
 
 eslint-webpack-plugin@^3.1.0:
   version "3.1.1"
-  resolved "https://registry.npmmirror.com/eslint-webpack-plugin/-/eslint-webpack-plugin-3.1.1.tgz#83dad2395e5f572d6f4d919eedaa9cf902890fcb"
+  resolved "https://registry.yarnpkg.com/eslint-webpack-plugin/-/eslint-webpack-plugin-3.1.1.tgz#83dad2395e5f572d6f4d919eedaa9cf902890fcb"
   integrity sha512-xSucskTN9tOkfW7so4EaiFIkulWLXwCB/15H917lR6pTv0Zot6/fetFucmENRb7J5whVSFKIvwnrnsa78SG2yg==
   dependencies:
     "@types/eslint" "^7.28.2"
@@ -3681,7 +3681,7 @@ human-signals@^2.1.0:
 
 iconv-lite@0.4.24:
   version "0.4.24"
-  resolved "https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
+  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
@@ -3698,7 +3698,7 @@ ieee754@^1.1.13:
 
 ignore@^4.0.6:
   version "4.0.6"
-  resolved "https://registry.npmmirror.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
 ignore@^5.1.1, ignore@^5.2.0:
@@ -4211,7 +4211,7 @@ lodash.uniq@^4.5.0:
 
 lodash@^4.17.14, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
-  resolved "https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^1.0.2:
@@ -4386,7 +4386,7 @@ minipass@^3.1.1:
 
 mkdirp@^0.5.5:
   version "0.5.6"
-  resolved "https://registry.npmmirror.com/mkdirp/-/mkdirp-0.5.6.tgz#7def03d2432dcae4ba1d611445c48396062255f6"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.6.tgz#7def03d2432dcae4ba1d611445c48396062255f6"
   integrity sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==
   dependencies:
     minimist "^1.2.6"
