@@ -4,6 +4,7 @@ const findHooksDir = require("yorkie/src/utils/find-hooks-dir");
 const getHookScript = require("yorkie/src/utils/get-hook-script");
 const is = require("yorkie/src/utils/is");
 const hooks = require("yorkie/src/hooks.json");
+const { submoduleDirs, doneLogger, warnLogger, infoLogger } = require("./helper");
 
 const SKIP = "SKIP";
 const UPDATE = "UPDATE";
@@ -56,21 +57,16 @@ function installFrom(projectDir) {
       const createAction = name => createHook(hooksDir, name);
       hooks.map(hookName => ({ hookName, action: createAction(hookName) }));
       const submodule = path.relative(__dirname, projectDir);
-      console.log(`submodule：${submodule} installation completed\n`);
+      const text = `${submodule.replace("../src/modules/", "")} 注册成功`;
+      doneLogger(text);
     } else {
-      console.log("can't find .git directory, skipping Git hooks installation");
+      warnLogger(`can't find .git directory, skipping Git hooks installation`);
     }
   } catch (e) {
     console.error(e);
   }
 }
 
-function getSubmoduleDirs() {
-  const parentDir = "src/modules";
-  const dirs = ["submodules-1", "submodules-2"];
-  return dirs.map(dir => path.resolve(parentDir, dir));
-}
+infoLogger("开始注册所有子模块的 hooks");
 
-const dirs = getSubmoduleDirs();
-
-dirs.forEach(installFrom);
+submoduleDirs.forEach(installFrom);
